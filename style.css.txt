@@ -1,0 +1,238 @@
+/* Basic Reset & Body Styling */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Choose a font you like */
+    color: #333; /* Dark grey for text */
+    line-height: 1.6;
+}
+
+body {
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333; /* Dark header background */
+    color: #fff;
+    padding: 1rem 0;
+    border-bottom: 3px solid #5cb85c; /* Accent color - green */
+}
+
+nav {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #5cb85c; /* Accent color for hover/active */
+}
+
+/* Main Content Area */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.homepage-main {
+    padding: 0; /* Remove padding for homepage to allow hero full-width feel */
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* Homepage Hero Section */
+.hero {
+    background-color: #4A5A6A; /* A slightly muted dark blue/grey */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.hero .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #eee;
+}
+
+.cta-buttons .cta-button {
+    background-color: #5cb85c; /* Green accent */
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Ensures they sit nicely */
+    border: 2px solid transparent;
+}
+
+.cta-buttons .cta-button:hover {
+    background-color: #4a934a; /* Darker green */
+}
+
+.cta-buttons .cta-secondary {
+    background-color: transparent;
+    border: 2px solid #fff; /* White border for secondary */
+}
+.cta-buttons .cta-secondary:hover {
+    background-color: #fff;
+    color: #4A5A6A;
+}
+
+
+/* General Content Sections */
+.intro-summary, .content-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for content */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.intro-summary h2, .content-section h1 {
+     color: #333;
+     margin-bottom: 20px;
+     border-bottom: 2px solid #5cb85c;
+     padding-bottom: 10px;
+}
+.content-section h2 {
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Skills section on About page */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Space between skill categories */
+}
+
+.skill-category {
+    flex: 1; /* Each category tries to take equal space */
+    min-width: 250px; /* Minimum width before wrapping */
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 3px solid #5cb85c;
+}
+
+.skill-category h3 {
+    color: #5cb85c;
+    margin-bottom: 10px;
+}
+
+.skill-category ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+.skill-category ul li {
+    margin-bottom: 5px;
+}
+
+
+/* Project & Testimonial Styling (basic) */
+.project, .testimonial {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 3px solid #5cb85c;
+    border-radius: 0 5px 5px 0;
+}
+.project h3 {
+    margin-bottom: 5px;
+    color: #444;
+}
+.testimonial p {
+    font-style: italic;
+}
+
+/* Contact Info */
+.contact-info p {
+    margin-bottom: 10px;
+}
+.contact-info a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #aaa;
+    margin-top: 30px;
+}
+
+/* Basic Responsiveness for Navigation */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul {
+        margin-top: 10px;
+        flex-direction: column;
+        width: 100%;
+    }
+    nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+        background-color: #444; /* Slight background for mobile nav items */
+        padding: 5px;
+        border-radius: 3px;
+    }
+    nav ul li a {
+        display: block; /* Make links take full width of li */
+    }
+
+    .cta-buttons .cta-button {
+        display: block; /* Stack buttons on small screens */
+        margin-bottom: 10px;
+    }
+    .skills-container {
+        flex-direction: column; /* Stack skill categories */
+    }
+}

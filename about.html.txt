@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Your Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Your Name</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="medtech.html">MedTech Focus</a></li>
+                <li><a href="training.html">Personal Training</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h1>About Me</h1>
+            <p>
+                </p>
+            <p>
+                [More content about your journey, skills, and passions...]
+            </p>
+
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>MedTech Related Skills</h3>
+                    <ul>
+                        <li>Skill 1 (e.g., Market Research, Product Knowledge in X)</li>
+                        <li>Skill 2 (e.g., Presentation Skills, CRM Software)</li>
+                        <li>Skill 3 (e.g., Understanding of Healthcare Systems)</li>
+                        </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Personal Training Related Skills</h3>
+                    <ul>
+                        <li>Skill 1 (e.g., Program Design, Nutritional Guidance)</li>
+                        <li>Skill 2 (e.g., Motivational Coaching, Anatomy & Physiology)</li>
+                        <li>Skill 3 (e.g., [Your Certifications])</li>
+                        </ul>
+                </div>
+                 <div class="skill-category">
+                    <h3>Transferable Skills</h3>
+                    <ul>
+                        <li>Communication & Interpersonal Skills</li>
+                        <li>Problem-Solving & Analytical Thinking</li>
+                        <li>Client Relationship Management</li>
+                        <li>Adaptability & Continuous Learning</li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

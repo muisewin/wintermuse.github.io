@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Training - Your Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Your Name</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="medtech.html">MedTech Focus</a></li>
+                <li><a href="training.html">Personal Training</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h1>Personal Training Philosophy & Services</h1>
+            <p>
+                </p>
+
+            <h2>Services Offered</h2>
+            <ul>
+                <li>One-on-One Training</li>
+                <li>Small Group Sessions (if applicable)</li>
+                <li>Customized Workout Plans</li>
+                <li>Nutritional Guidance (if certified/qualified)</li>
+                </ul>
+
+            <h2>Client Success Stories (Testimonials)</h2>
+            <div class="testimonial">
+                <p>"Quote from a client..." - Client Name/Initial (with permission)</p>
+            </div>
+            <div class="testimonial">
+                <p>"Another quote..." - Client Name/Initial (with permission)</p>
+            </div>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - MedTech & Personal Training</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Your Name</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="medtech.html">MedTech Focus</a></li>
+                <li><a href="training.html">Personal Training</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="homepage-main">
+        <section class="hero">
+            <h1>Advancing Health & Wellness</h1>
+            <p class="subtitle">Exploring opportunities in MedTech sales and empowering individuals through personalized fitness training.</p>
+            <div class="cta-buttons">
+                <a href="medtech.html" class="cta-button">Explore My MedTech Profile</a>
+                <a href="training.html" class="cta-button cta-secondary">Discover Personal Training</a>
+            </div>
+        </section>
+
+        <section class="intro-summary">
+            <h2>Welcome!</h2>
+            <p>
+                Thank you for visiting my site. I'm passionate about the intersection of health, technology, and human potential. Learn more about my journey and how I can contribute to innovative MedTech solutions or help you achieve your fitness goals.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </footer>
+</body>
+</html>
